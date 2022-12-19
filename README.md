@@ -11,7 +11,7 @@ The project was carried out for get answers to the following questions;
 The data imported was scraped from Johns Hopkins University's Center for Systems Science and Engineering (CSSE) [github page](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series). The data comprises of confirmed covid-19 cases, death cases and recovered cases from July 2020 to June 2022
 ## Data Transformation
 * Upon completion of data scraping from github and importation into Ms Excel with the aid of power query, the source was further altered to ensure any update made in the data origin reflects in the imported data. 
-* The data was cleaned eradicating redumdancy
+* The data was cleaned eradicating redundancy
 * The three tables were then merged together, left joining the confirmed cases tables to the recovered and death tables to give one table that was named the consolidated data
 * It was then loaded into excel for further analysis.
 * Upon its loading into excel, I extracted the Year, Month and day column using the year, text and day functions
